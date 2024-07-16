@@ -1,0 +1,151 @@
+header {
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(250, 190, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.produtos_formulario {
+    width: 40%;
+    height: 65%;
+    position: absolute;
+    z-index: 2;
+    left: 57%;
+    top: 20%;
+}
+
+.produtos_main {
+    width: 55vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.produtos_formulario form {
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 36px 64px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.campoTexto {
+    margin: 24px 0;
+}
+
+.campoTexto label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.campoTexto input {
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.botao {
+    background-color: #6278f7;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 23px;
+    border: none;
+    cursor: pointer;
+    color: #ffff;
+}
+
+.botao:hover {
+    color: #95ffd4;
+}
+
+/* ESTILIZAÇÃO DOS CARDS DE PRODUTOS */
+
+
+.produto {
+    width: 200px;
+    height: 250px;
+    border: 3px solid rgb(8, 8, 8);
+    border-radius: 1rem;
+    background-color: #5300C8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    box-shadow: 0 0.9rem 1rem black;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.produt_img {
+    width: 100%;
+    height: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+    display: block;
+
+
+}
+
+.produt_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.produto_titulo {
+    width: 100%;
+    font-size: 1rem;
+    color: #ffff;
+    margin: 0;
+
+}
+
+.produto_preco {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+
+}
+
+.produto_preco h2 {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin: 0;
+}
+
+.produto_preco img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.produto_preco img:hover {
+    cursor: pointer;
+}
+
+.produtos_lista {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    margin-top: 70px;
+}
+

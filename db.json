@@ -1,0 +1,74 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Logitech G502",
+      "descricao": "Mouse gamer com sensor HERO 25K, RGB LIGHTSYNC e 11 botões programáveis.",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/388054/mouse-gamer-logitech-g502-x-rgb-25600-dpi-13-botoes-switch-hibrido-preto-910-006137_1698851366_gg.jpg",
+      "preco": 299
+    },
+    {
+      "id": 2,
+      "titulo": "HyperX Alloy FPS Pro",
+      "descricao": "Teclado mecânico compacto com switches Cherry MX Red e estrutura de aço.",
+      "imagem": "https://i.ytimg.com/vi/z9K7hksSZ8A/maxresdefault.jpg",
+      "preco": 499
+    },
+    {
+      "id": 3,
+      "titulo": "Razer Kraken X",
+      "descricao": "Headset gamer ultraleve com som surround 7.1 e microfone cardioide.",
+      "imagem": "https://cdn.awsli.com.br/396/396949/produto/75695404/sg-11134201-22100-kw9xlhrwglivd4-nhv8gkkv78.jpeg",
+      "preco": 249
+    },
+    {
+      "id": 4,
+      "titulo": "TUF Gaming VG27AQ",
+      "descricao": "Monitor 27'' WQHD com 165Hz, 1ms e G-Sync compatível.",
+      "imagem": "https://m.media-amazon.com/images/I/81qivuBGuYL._AC_UF894,1000_QL80_.jpg",
+      "preco": 2999
+    },
+    {
+      "id": 5,
+      "titulo": "DXRacer Formula Series",
+      "descricao": "Cadeira ergonômica com ajuste de altura, inclinação e apoio de braços 3D.",
+      "imagem": "https://ds92okzpvwldu.cloudfront.net/Custom/Content/Products/24/26/2426354_cadeira-dxracer-f-series-p08nr_m1_637878076099680755.jpg",
+      "preco": 1499
+    },
+    {
+      "id": 6,
+      "titulo": "NVIDIA GeForce RTX 3080",
+      "descricao": "Placa de vídeo com 10GB GDDR6X, Ray Tracing e DLSS.",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/128054/placa-de-video-evga-nvidia-geforce-rtx-3080-10gb-gddr6x-10g-p5-3897-kr_1600345090_gg.jpg",
+      "preco": 6999
+    },
+    {
+      "id": 7,
+      "titulo": "970 EVO Plus 1TB",
+      "descricao": "SSD NVMe M.2 com leitura de até 3500MB/s e escrita de até 3300MB/s.",
+      "imagem": "https://m.media-amazon.com/images/I/41Xs7PMZLpL._AC_UF350,350_QL80_.jpg",
+      "preco": 999
+    },
+    {
+      "id": 8,
+      "titulo": "Ryzen 9 5900X",
+      "descricao": "Processador 12 núcleos e 24 threads com clock de até 4.8GHz.",
+      "imagem": "https://images.kabum.com.br/produtos/fotos/129460/processador-amd-ryzen-9-5900x-cache-70mb-3-8ghz-4-7ghz-max-turbo-am4-100-100000061wof_1604585280_g.jpg",
+      "preco": 3499
+    },
+    {
+      "id": 9,
+      "titulo": "ROG Strix B550-F Gaming",
+      "descricao": "Placa-mãe ATX com suporte a PCIe 4.0, Wi-Fi 6 e Aura Sync RGB.",
+      "imagem": "https://img.terabyteshop.com.br/produto/g/placa-mae-asus-rog-strix-b550-f-gaming-chipset-b550-amd-am4-atx-ddr4-90mb14s0-m0eay0_98447.jpg",
+      "preco": 1399
+    },
+    {
+      "id": 10,
+      "titulo": "NZXT H510",
+      "descricao": "Gabinete Mid Tower com vidro temperado e gerenciamento de cabos.",
+      "imagem": "https://images2.kabum.com.br/produtos/fotos/110022/gabinete-gamer-nzxt-h510-elite-mid-tower-rgb-com-fan-lateral-e-frontal-em-vidro-branco-ca-h510e-w1_1581539235_g.jpg",
+      "preco": 499
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">AluraGeek Perifericos</h1>
+    </header>
+    <main class="main">
+        <section class="produtos_main">
+            <ul class="produtos_lista" data-lista>
+
+            </ul>
+        </section>
+        <section class="produtos_formulario">
+            <form action="/submit" method="POST" enctype="multipart/form-data" data-formulario>
+                <div class="campoTexto">
+                    <label for="nomeProduto">Nome do Produto:</label>
+                    <input type="text" id="nomeProduto" name="nomeProduto" required data-titulo>
+                </div>
+                <div class="campoTexto">
+                    <label for="descricao">Descrição:</label>
+                    <textarea id="descricao" name="descricao" rows="4" cols="50" required data-descricao></textarea>
+                </div>
+                <div class="campoTexto">
+                    <label for="imagem">Imagem:</label>
+                    <input type="text" id="imagem" name="imagem" accept="image/*" required data-imagem>
+                </div>
+                <div class="campoTexto">
+                    <label for="preco">Preço:</label>
+                    <input type="number" id="preco" name="preco" step="0.01" required data-preco>
+                </div>
+                <div class="campoTexto">
+                    <button class="botao" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+</body>
+</html>
